@@ -22,6 +22,6 @@ app.use((err, req, res, next)=>{
     })
 })
 
-app.listen(5000, function(){
-    console.log("Running on port 5000");
-})
+
+
+module.exports = app;
